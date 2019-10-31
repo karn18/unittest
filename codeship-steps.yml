@@ -1,7 +1,10 @@
 - name: unittest
   service: unittest
   command: npm test
+- name: checkdir
+  service: unittest
+  command: ls -al
 - name: codecov
   service: unittest
-  command: bash -c "curl -s https://codecov.io/bash | bash"
+  command: bash -c "bash <(curl -s https://codecov.io/bash)"
 
