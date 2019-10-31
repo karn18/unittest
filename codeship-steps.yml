@@ -1,3 +1,7 @@
-- name: testing_step
+- name: unit-test
   service: unittest
   command: npm test
+- name: codecov
+  service: unittest
+  command: bash -c "curl -s https://codecov.io/bash"
+
