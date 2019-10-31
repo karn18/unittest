@@ -1,0 +1,27 @@
+{
+  "name": "unittest",
+  "version": "1.0.0",
+  "description": "Unit testing with Mocha",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Mocha",
+    "Unit",
+    "Testing"
+  ],
+  "author": "Karn Tirasoontorn",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "mocha": "^6.2.2"
+  },
+  "devDependencies": {}
+}
